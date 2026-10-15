@@ -84,23 +84,7 @@ src/
 
 ---
 
-## ⚡ How to Build & Run
 
-### 1. Compile
-
-From the workspace root directory:
-
-```powershell
-javac -d bin -cp src (Get-ChildItem -Recurse -Filter *.java src | ForEach-Object { $_.FullName })
-```
-
-### 2. Run Interactive Console
-
-```powershell
-java -cp bin texthack.Main
-```
-
-### 3. Automated Verification Run
 
 To run all 6 modules end-to-end without manual menu navigation:
 
